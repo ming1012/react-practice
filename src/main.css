@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    height:100%;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  #root {
+    height: 100%;
+  }
+  #content {
+    height: 100%;
+  }
+  #content .aside{
+    height: 720px;
+    background-color: #fff;
+    width: 200px;
+    float: left;
+  }
+  #content .aside .optionWrapper {
+    width: 180px;
+    border-right: 1px solid #ececec;
+    padding: 10px 0 10px 40px;
+    margin-top: 15px;
+    list-style: none;
+  }
+  #content .aside .optionWrapper li{
+    margin: 40px 10px;
+    cursor: pointer;
+  }
+  #content .aside .optionWrapper li .active{
+    color: #5ca8ff;
+  }
+  #content .aside .optionWrapper li img{
+      width: 18px;
+      height: 18px;
+      margin-right: 15px;
+      vertical-align: -3px;
+  }
