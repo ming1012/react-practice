@@ -24,7 +24,7 @@ class Inputlood extends Component {
     }
     handleButtonClick(){
         const newValue=this.state.newValue;
-        if(newValue!=""){
+        if(newValue!==""){
             this.setState({
                 list: [...this.state.list,this.state.newValue],
                 newValue:'',
